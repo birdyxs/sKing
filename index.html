@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - sKing</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html><head><title>sKing</title>
+<link rel="stylesheet" href="//cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<script src="//static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:120,
+tip_fade_speed:120,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+ 
+<script src="//static.tumblr.com/gtjt4bo/oQ4pcx2p5/symphonia.js"></script>
+<script src="//static.tumblr.com/gtjt4bo/ksJpcx2cj/concordia.js"></script>
+  
+<link rel="stylesheet" href="//static.tumblr.com/gtjt4bo/OiSpcx2yn/melodiam.css">
+ 
+<script>
+document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
+</script>
+ 
+<link href="//fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+</head>
+ 
+<body>
+<div id="phone">
+<div class="toptitle">sKing (1000081)</div>
+<div class="nav1"><span class="lnr lnr-arrow-left"></span></a></div>
+ 
+<div class="nav2">
+    <span class="lnr lnr-menu"></span>
+</a></div>
+ 
+<div class="sheep" onclick="javascript:toggleMainAudio();">
+    <div class="tri">▶</div>
+    <div class="paws">❚❚</div>
+</div>
+ 
+
+<audio src="https://drive.google.com/uc?export=download&id=1LMOI4yz_tBNDlwCrnUKmMHYe0dpng-yr" type="audio/mpeg" id="mainaudio"></audio>
+  
+<audio src="https://drive.google.com/uc?export=download&id=1LMOI4yz_tBNDlwCrnUKmMHYe0dpng-yr" type="audio/mpeg" id="audio1"></audio>
+<audio src="https://drive.google.com/uc?export=download&id=1QQdDPpTw4iry6jC6pYcVk41M9j9l3kZ5" type="audio/mpeg" id="audio2"></audio>
+<audio src="https://drive.google.com/uc?export=download&id=1aze3gZPsUeXfCX2mmGqB5xSsouid7OOG" type="audio/mpeg" id="audio3"></audio>
+<audio src="https://drive.google.com/uc?export=download&id=1bB4EjAVRrT2HNk7vuCxaQiqZvcmyUL6P" type="audio/mpeg" id="audio4"></audio>
+<audio src="https://drive.google.com/uc?export=download&id=1A-O-X9dx_V0-i88iQOqqqo04ybvHj06h" type="audio/mpeg" id="audio5"></audio>
+<audio src="/" type="audio/mpeg" id="audio6"></audio>
+<audio src="/" type="audio/mpeg" id="audio7"></audio>
+ 
+<div class="nowplaying">
+<marquee>
+ 
+"Aminteste-ti trecutul si planuieste-ti viitorul... Dar traieste pentru azi caci ieri deja a trecut si maine s-ar putea sa nu mai vina niciodata..."
+ 
+</marquee>
+</div>
+ 
+<div id="infosect">
+ 
+    <table><tbody>
+ 
+      <tr class="woah1" onclick="javascript:toggleAudio1();">
+        <td>Rewers - 31 de zile (2022)</td>
+ 
+        <td>
+        <div class="trii1">▶</div>
+        <div class="pawss1">❚❚</div>
+        </td>
+      </tr>
+ 
+ 
+      <tr class="woah2" onclick="javascript:toggleAudio2();">
+        <td>C-2 - My Drug</td>
+ 
+        <td>
+        <div class="trii2">▶</div>
+        <div class="pawss2">❚❚</div>
+        </td>
+      </tr>
+ 
+      <tr class="woah3" onclick="javascript:toggleAudio3();">
+        <td>F.Charm - Nimic nu-i întâmplător</td>
+ 
+        <td>
+        <div class="trii3">▶</div>
+        <div class="pawss3">❚❚</div>
+        </td>
+      </tr>
+ 
+ 
+      <tr class="woah4" onclick="javascript:toggleAudio4();">
+        <td>RAVA & 4226 - COCA COLA</td>
+ 
+        <td>
+        <div class="trii4">▶</div>
+        <div class="pawss4">❚❚</div>
+        </td>
+      </tr>
+ 
+ 
+      <tr class="woah5" onclick="javascript:toggleAudio5();">
+        <td>PRAFU - Aerozen x Petre Stefan x 911 ...</td>
+ 
+        <td>
+        <div class="trii5">▶</div>
+        <div class="pawss5">❚❚</div>
+        </td>
+      </tr>
+ 
+ 
+      <tr class="woah6" onclick="javascript:toggleAudio6();">
+        <td>#6</td>
+ 
+        <td>
+        <div class="trii6">▶</div>
+        <div class="pawss6">❚❚</div>
+        </td>
+      </tr>
+ 
+ 
+      <tr class="woah7" onclick="javascript:toggleAudio7();">
+        <td>#7</td>
+ 
+        <td>
+        <div class="trii7">▶</div>
+        <div class="pawss7">❚❚</div>
+        </td>
+      </tr>
+      <!--pueden ser 30 canciones-->
+    </tbody></table>
+ 
+</div>
+
+<img src="https://xatimg.com/image/xAZQIRXIQWwL.jpg" />
+ 
+</div>
+ 
+<div id="customlinks" class="animated fadeInLeftBig">
+    
+    <a target="_blank" href="https://xat.me/xxKing" title="CHECK MY GALLERY"><span class="lnr lnr-link"></span></a>
+    <a target="_blank" href="https://xat.me/birdy" title="xs by mar"><span class="lnr lnr-star"></span></a>
+</div> 
+</body>
+
+</div></div>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
